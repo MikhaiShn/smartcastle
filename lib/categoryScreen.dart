@@ -58,7 +58,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
-                        color: Color.fromARGB(255, 219, 202, 13)),
+                        color: Color.fromARGB(265, 219, 202, 13)),
                     child: Center(
                         child: Text(
                       categories[index],
