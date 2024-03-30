@@ -40,7 +40,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text('Категории', style: TextStyle(color: Colors.white)),
+          title: Text('Netu', style: TextStyle(color: Colors.black)),
         ),
         body: ListView.builder(
           itemCount: categories.length,
