@@ -1,0 +1,17 @@
+.conteiner {
+    padding-left: 440px;
+
+}
+
+.tre {
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+}
+.author {
+    justify-content: center;
+    align-items: end;
+}
+.btn {
+    justify-content: center;
+}
