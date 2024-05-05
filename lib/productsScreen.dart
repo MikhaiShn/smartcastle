@@ -47,17 +47,14 @@ class _ProductsScreenState extends State<ProductsScreen> {
             mainAxisSpacing: 10.0,
           ),itemCount: productsScreen.length, itemBuilder: (context, index) {
             return Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.symmetric(vertical: 10.0),
               child: Container(
                 decoration: BoxDecoration(border: Border.all(color: Colors.black),borderRadius: BorderRadius.circular(10)),
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    children: [
-                      Expanded(child: Image.network(productsScreen[index].images!.first)),
-                      Text(productsScreen[index].title!,style: TextStyle(color: Colors.black,fontSize: 15),),
-                    ],
-                  ),
+                child: Column(
+                  children: [
+                    Expanded(child: Image.network(productsScreen[index].images!.first)),
+                    Text(productsScreen[index].title!,style: TextStyle(color: Colors.black,fontSize: 15),),
+                  ],
                 ),
               ),
             );

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749824018034",
+    "project_id": "smartcastle2-7b547",
+    "storage_bucket": "smartcastle2-7b547.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749824018034:android:b4256246ac42c8f7a7e4eb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBBGgrNz_WkMEfwn1Yav7cgWJf17SxTA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
